@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Unzip file
-        run: unzip yourfile.zip
+        run: GlowUpAndroid.zip
       - name: Commit extracted files
         run: |
           git config --global user.name "github-actions"
